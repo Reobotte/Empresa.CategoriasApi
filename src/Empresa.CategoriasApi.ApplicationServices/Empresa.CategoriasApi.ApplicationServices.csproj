@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="4.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.24" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Empresa.CategoriasApi.Domains.CQRS\Empresa.CategoriasApi.Domains.CQRS.csproj" />
+    <ProjectReference Include="..\Empresa.CategoriasApi.Infra.Data\Empresa.CategoriasApi.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
